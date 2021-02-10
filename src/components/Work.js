@@ -34,7 +34,7 @@ export default function Work() {
               </li>
             )
           }else{
-retrun (<></>)
+return (<></>)
 }
         })}
       </ul>
