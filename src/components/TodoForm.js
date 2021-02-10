@@ -10,7 +10,7 @@ export default function TodoForm() {
       setTodo(state.currenttodo.text)
     }
     return () => {}
-  }, [state.currenttodo.id])
+  }, [state.currenttodo.text])
   const handleSubmit = event => {
     event.preventDefault()
     if (state.currenttodo.text) {
