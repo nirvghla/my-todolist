@@ -28,7 +28,7 @@ const App = () => {
         My Daily todolist<p>DblClick to mark complete</p>
       </header>
       <div className='item-list'>
-        <img className='bgimg' src={bgimg} width='1500' height='700' />
+        <img alt="" className='bgimg' src={bgimg} width='1500' height='700' />
         <MyClock />
         <TodoForm />
         <Food />
