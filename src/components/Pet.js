@@ -33,7 +33,9 @@ export default function Pet() {
                 ></button>
               </li>
             )
-          }
+          }else{
+retrun (<></>)
+}
         })}
       </ul>
     </div>
