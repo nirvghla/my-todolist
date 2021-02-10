@@ -34,7 +34,7 @@ export default function Fun() {
               </li>
             )
           }else{
-retrun (<></>)
+return (<></>)
 }
         })}
       </ul>
