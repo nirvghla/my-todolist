@@ -33,7 +33,9 @@ export default function Fun() {
                 ></button>
               </li>
             )
-          }
+          }else{
+retrun (<></>)
+}
         })}
       </ul>
     </div>
