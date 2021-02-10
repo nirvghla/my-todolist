@@ -33,7 +33,9 @@ const Food = () => {
                 ></button>
               </li>
             )
-          }
+          }else{
+retrun (<></>)
+}
         })}
       </ul>
     </div>
