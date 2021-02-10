@@ -33,7 +33,9 @@ export default function Work() {
                 ></button>
               </li>
             )
-          }
+          }else{
+retrun (<></>)
+}
         })}
       </ul>
     </div>
