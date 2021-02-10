@@ -34,7 +34,7 @@ export default function Pet() {
               </li>
             )
           }else{
-retrun (<></>)
+return (<></>)
 }
         })}
       </ul>
